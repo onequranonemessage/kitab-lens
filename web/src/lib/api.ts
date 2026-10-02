@@ -86,7 +86,13 @@ export async function postAuth(passcode: string): Promise<void> {
     body: JSON.stringify({ passcode }),
   })
   if (!res.ok) {
-    throw new ApiError(res.status, res.status === 401 ? "Incorrect passcode" : `Request failed (${res.status})`)
+    const message =
+      res.status === 401
+        ? "Incorrect passcode"
+        : res.status === 429
+          ? "Too many wrong attempts — wait a while and try again"
+          : `Request failed (${res.status})`
+    throw new ApiError(res.status, message)
   }
 }
 
