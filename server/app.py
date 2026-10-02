@@ -114,6 +114,72 @@ def _is_remote(request: Request) -> bool:
     return "cf-connecting-ip" in request.headers or "cf-ray" in request.headers
 
 
+# Brute-force guard for /api/auth. The passcode is only 6 digits, so a public
+# tunnel URL would otherwise let anyone walk the whole space in hours. Two limits:
+# per client (Cloudflare's cf-connecting-ip) so one guesser gets locked out fast,
+# and a global cap so rotating IPs doesn't help either -- at AUTH_GLOBAL_MAX_FAILS
+# per hour, covering half of 10^6 codes takes over a millennium. A locked-out
+# owner can still use the app from the Mac itself (local requests skip auth).
+AUTH_WINDOW_SECONDS = 15 * 60
+AUTH_CLIENT_MAX_FAILS = 5
+AUTH_GLOBAL_WINDOW_SECONDS = 3600
+AUTH_GLOBAL_MAX_FAILS = 30
+
+_auth_fail_lock = threading.Lock()
+_auth_client_fails: dict = {}  # client key -> [failure timestamps]
+_auth_global_fails: list = []  # failure timestamps across all clients
+
+
+def _auth_client_key(request: Request) -> str:
+    return request.headers.get("cf-connecting-ip") or (request.client.host if request.client else "?")
+
+
+def _auth_prune(now: float) -> None:
+    """Drop failures older than their window. Caller holds _auth_fail_lock."""
+    _auth_global_fails[:] = [t for t in _auth_global_fails if now - t < AUTH_GLOBAL_WINDOW_SECONDS]
+    for key in list(_auth_client_fails):
+        recent = [t for t in _auth_client_fails[key] if now - t < AUTH_WINDOW_SECONDS]
+        if recent:
+            _auth_client_fails[key] = recent
+        else:
+            del _auth_client_fails[key]
+
+
+def _auth_locked_out(key: str) -> bool:
+    with _auth_fail_lock:
+        _auth_prune(time.time())
+        return (
+            len(_auth_client_fails.get(key, ())) >= AUTH_CLIENT_MAX_FAILS
+            or len(_auth_global_fails) >= AUTH_GLOBAL_MAX_FAILS
+        )
+
+
+def _auth_record_failure(key: str) -> None:
+    now = time.time()
+    with _auth_fail_lock:
+        _auth_client_fails.setdefault(key, []).append(now)
+        _auth_global_fails.append(now)
+
+
+# DNS-rebinding guard. Local requests skip the cookie check (see require_auth), so
+# without this a web page open on the Mac could rebind its own domain to 127.0.0.1
+# and read /api/connect-info (the passcode) or drive the API. Its requests still
+# carry its own hostname in Host, so only accept loopback names and the current
+# tunnel host.
+LOCAL_HOSTNAMES = {"127.0.0.1", "localhost", "[::1]", "::1"}
+
+
+def _host_allowed(request: Request) -> bool:
+    host = request.headers.get("host", "").strip().lower()
+    hostname = host.rsplit(":", 1)[0] if not host.endswith("]") else host
+    if hostname in LOCAL_HOSTNAMES:
+        return True
+    if not TUNNEL_URL_PATH.is_file():
+        return False
+    tunnel_url = TUNNEL_URL_PATH.read_text(encoding="utf-8").strip().lower()
+    return bool(tunnel_url) and host == tunnel_url.split("://", 1)[-1].rstrip("/")
+
+
 class AuthRequest(BaseModel):
     passcode: str
 
@@ -318,6 +384,8 @@ def run_translate_job(job_id: str) -> None:
 # --------------------------------------------------------------------------- auth middleware
 @app.middleware("http")
 async def require_auth(request: Request, call_next):
+    if not _host_allowed(request):
+        return JSONResponse(status_code=403, content={"error": "host not allowed"})
     path = request.url.path
     if path.startswith("/api/") and path not in EXEMPT_API_PATHS:
         if _is_remote(request):
@@ -335,7 +403,11 @@ async def health():
 
 @app.post("/api/auth")
 async def auth(payload: AuthRequest, request: Request, response: Response):
-    if not hmac.compare_digest(payload.passcode.strip(), PASSCODE):
+    client_key = _auth_client_key(request)
+    if _auth_locked_out(client_key):
+        raise HTTPException(status_code=429, detail="too many wrong passcodes -- try again later")
+    if not hmac.compare_digest(payload.passcode.strip().encode("utf-8"), PASSCODE.encode("utf-8")):
+        _auth_record_failure(client_key)
         raise HTTPException(status_code=401, detail="wrong passcode")
     response.set_cookie(
         key=COOKIE_NAME,
