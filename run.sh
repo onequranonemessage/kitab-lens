@@ -103,8 +103,9 @@ touch "$ENV_FILE"
 chmod 600 "$ENV_FILE"
 if ! grep -q '^KITAB_LENS_PASSCODE=.' "$ENV_FILE"; then
   echo "Generating a passcode in $ENV_FILE ..."
-  # Six digits, zero-padded (so e.g. 004821 stays a 6-digit code).
-  PASSCODE=$(printf "%06d" $(( (RANDOM * 32768 + RANDOM) % 1000000 )))
+  # Six digits, zero-padded (so e.g. 004821 stays a 6-digit code), from a CSPRNG
+  # rather than bash's $RANDOM.
+  PASSCODE=$("$PYTHON" -c 'import secrets; print(f"{secrets.randbelow(10**6):06d}")')
   [[ -z "$(tail -c1 "$ENV_FILE")" ]] || echo >> "$ENV_FILE"  # end any unterminated line
   echo "KITAB_LENS_PASSCODE=$PASSCODE" >> "$ENV_FILE"
 fi
