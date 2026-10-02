@@ -1,0 +1,16 @@
+.env
+chrome-profile/
+.runtime/
+/node_modules/
+web/node_modules/
+web/dist/
+__pycache__/
+.DS_Store
+# tsc -b build byproducts (e.g. from `tsc -b && vite build`'s composite project refs)
+*.tsbuildinfo
+.venv/
+.tools/
+install.log
+.kitab-version
+.kitab-installed
+*.log

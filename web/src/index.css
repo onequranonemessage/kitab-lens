@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* kitab-lens is dark-only: this app lives on a phone screen in your
+       hand, used like a camera. There is no light theme to fall back to. */
+    --background: 240 10% 4%;
+    --foreground: 0 0% 98%;
+    --card: 240 9% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 9% 9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 243 90% 72%;
+    --primary-foreground: 240 10% 5%;
+    --secondary: 240 5% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 5% 14%;
+    --muted-foreground: 240 5% 64%;
+    --accent: 240 5% 18%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 98%;
+    --success: 142 65% 45%;
+    --success-foreground: 0 0% 100%;
+    --border: 240 5% 20%;
+    --input: 240 5% 20%;
+    --ring: 243 90% 72%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html,
+  body,
+  #root {
+    height: 100%;
+    background: hsl(var(--background));
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overscroll-behavior-y: none;
+  }
+}
+
+/* Thin, unobtrusive scrollbars for translation/Arabic panes. */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Horizontal scroll-snap pager used by the Translation/Arabic swipe view. */
+.snap-pager {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.snap-pager > * {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.font-arabic {
+  font-family: "Noto Naskh Arabic", ui-sans-serif, serif;
+}
+
+@keyframes shimmer-text {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.shimmer-text {
+  animation: shimmer-text 1.6s ease-in-out infinite;
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "label": "t1_en_short",
+    "language": "English",
+    "arabic_chars": 572,
+    "time_to_first_serialized_token_s": 1.927,
+    "stream_wall_time_s": 4.021,
+    "read_reply_time_s": 0.003,
+    "total_time_s": 4.024,
+    "final_text_len": 964,
+    "identical_to_final": true,
+    "num_anomalies": 0,
+    "anomalies": []
+  },
+  {
+    "label": "t2_en_long",
+    "language": "English",
+    "arabic_chars": 4121,
+    "time_to_first_serialized_token_s": 3.591,
+    "stream_wall_time_s": 10.162,
+    "read_reply_time_s": 0.002,
+    "total_time_s": 10.164,
+    "final_text_len": 6970,
+    "identical_to_final": true,
+    "num_anomalies": 0,
+    "anomalies": []
+  },
+  {
+    "label": "t3_urdu_short",
+    "language": "Urdu",
+    "arabic_chars": 572,
+    "time_to_first_serialized_token_s": 2.493,
+    "stream_wall_time_s": 4.901,
+    "read_reply_time_s": 0.003,
+    "total_time_s": 4.903,
+    "final_text_len": 839,
+    "identical_to_final": true,
+    "num_anomalies": 0,
+    "anomalies": []
+  },
+  {
+    "label": "t4_urdu_long",
+    "language": "Urdu",
+    "arabic_chars": 4121,
+    "time_to_first_serialized_token_s": 3.381,
+    "stream_wall_time_s": 10.586,
+    "read_reply_time_s": 0.003,
+    "total_time_s": 10.589,
+    "final_text_len": 5836,
+    "identical_to_final": true,
+    "num_anomalies": 1,
+    "anomalies": [
+      "t=7.76: plain innerText length SHRANK 479 -> 470"
+    ]
+  },
+  {
+    "label": "t5_en_short_repeat",
+    "language": "English",
+    "arabic_chars": 572,
+    "time_to_first_serialized_token_s": 1.336,
+    "stream_wall_time_s": 3.381,
+    "read_reply_time_s": 0.003,
+    "total_time_s": 3.384,
+    "final_text_len": 988,
+    "identical_to_final": true,
+    "num_anomalies": 0,
+    "anomalies": []
+  },
+  {
+    "label": "t6_urdu_long_repeat",
+    "language": "Urdu",
+    "arabic_chars": 4121,
+    "time_to_first_serialized_token_s": 3.036,
+    "stream_wall_time_s": 9.987,
+    "read_reply_time_s": 0.003,
+    "total_time_s": 9.99,
+    "final_text_len": 5724,
+    "identical_to_final": true,
+    "num_anomalies": 0,
+    "anomalies": []
+  }
+]

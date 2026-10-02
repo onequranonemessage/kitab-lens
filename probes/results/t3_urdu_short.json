@@ -1,0 +1,189 @@
+{
+  "label": "t3_urdu_short",
+  "language": "Urdu",
+  "arabic_chars": 572,
+  "samples": [
+    {
+      "t": 0.198,
+      "serialized_len": 0,
+      "serialize_ms": 2.0,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 5.9,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 0.469,
+      "serialized_len": 0,
+      "serialize_ms": 6.9,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 16.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 0.756,
+      "serialized_len": 0,
+      "serialize_ms": 3.9,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 12.0,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.036,
+      "serialized_len": 0,
+      "serialize_ms": 7.8,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 15.9,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.326,
+      "serialized_len": 0,
+      "serialize_ms": 6.4,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 15.1,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.613,
+      "serialized_len": 0,
+      "serialize_ms": 7.7,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 15.3,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.902,
+      "serialized_len": 0,
+      "serialize_ms": 6.8,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 15.6,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 2.19,
+      "serialized_len": 0,
+      "serialize_ms": 6.7,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 32.9,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 2.493,
+      "serialized_len": 99,
+      "serialize_ms": 4.3,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 12.1,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 2.774,
+      "serialized_len": 309,
+      "serialize_ms": 19.3,
+      "serialize_err": null,
+      "plain_len": 60,
+      "plain_ms": 16.0,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 3.074,
+      "serialized_len": 435,
+      "serialize_ms": 6.0,
+      "serialize_err": null,
+      "plain_len": 89,
+      "plain_ms": 17.9,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 3.362,
+      "serialized_len": 567,
+      "serialize_ms": 7.3,
+      "serialize_err": null,
+      "plain_len": 106,
+      "plain_ms": 24.3,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 3.658,
+      "serialized_len": 681,
+      "serialize_ms": 7.2,
+      "serialize_err": null,
+      "plain_len": 819,
+      "plain_ms": 60.0,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 3.989,
+      "serialized_len": 839,
+      "serialize_ms": 8.6,
+      "serialize_err": null,
+      "plain_len": 819,
+      "plain_ms": 20.4,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 4.283,
+      "serialized_len": 839,
+      "serialize_ms": 6.6,
+      "serialize_err": null,
+      "plain_len": 819,
+      "plain_ms": 21.3,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 4.575,
+      "serialized_len": 839,
+      "serialize_ms": 8.4,
+      "serialize_err": null,
+      "plain_len": 819,
+      "plain_ms": 21.2,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 4.87,
+      "serialized_len": 839,
+      "serialize_ms": 6.4,
+      "serialize_err": null,
+      "plain_len": 819,
+      "plain_ms": 19.6,
+      "plain_err": null,
+      "stop_present": false
+    }
+  ],
+  "anomalies": [],
+  "time_to_first_serialized_token_s": 2.493,
+  "time_to_first_plain_token_s": 2.774,
+  "stream_wall_time_s": 4.901,
+  "read_reply_time_s": 0.003,
+  "total_time_s": 4.903,
+  "read_err": null,
+  "final_text_len": 839,
+  "final_text": "## سابقہ مطالعات\n\nشیخ محمد بن عثيمين رحمہ اللہ کے بارے میں لکھنے والوں کی تلاش کے بعد، توحید کو ترک کرنے والے کے بارے میں ان کی رائے کے متعلق، مجھے درج ذیل چیزیں ملیں:\n\n1. ڈاکٹر سلطان العميري کے چھ صفحات، جو ویب سائٹ «الإسلام اليوم» کے (تحقیقات و مطالعات) کے شعبے میں اس عنوان سے شائع ہوئے ہیں:\n\n«قبروں سے فریاد کرنے والوں کے حکم میں شیخ محمد بن عثيمين کے موقف کی تحریر»\n\nانہوں نے اس میں درج ذیل امور بیان کیے ہیں:\n\n1. یہ کہ شیخ کا قول یہ ہے کہ توحید چھوڑنے والے کے لیے عذر مطلقاً موجود ہے! اور یہ ان غلطیوں میں سے ہے جن میں مصنف واقع ہوا ہے۔\n2. انہوں نے دنیاوی احکام میں کسی معین شخص کے شرک میں مبتلا ہونے پر شیخ کے حکم اور آخرت میں عذاب کے مستحق ہونے سے متعلق باطنی کفر کے درمیان خلط ملط کیا ہے۔ اور یہ بھی ان غلطیوں میں سے ہے جن میں مصنف واقع ہوا ہے۔\n3. انہوں نے ذکر کیا ہے کہ شیخ Muhammad ibn ʿUthaymīn، شیخ عبد ... سے اختلاف کرتے ہیں۔",
+  "last_streamed_sample": "## سابقہ مطالعات\n\nشیخ محمد بن عثيمين رحمہ اللہ کے بارے میں لکھنے والوں کی تلاش کے بعد، توحید کو ترک کرنے والے کے بارے میں ان کی رائے کے متعلق، مجھے درج ذیل چیزیں ملیں:\n\n1. ڈاکٹر سلطان العميري کے چھ صفحات، جو ویب سائٹ «الإسلام اليوم» کے (تحقیقات و مطالعات) کے شعبے میں اس عنوان سے شائع ہوئے ہیں:\n\n«قبروں سے فریاد کرنے والوں کے حکم میں شیخ محمد بن عثيمين کے موقف کی تحریر»\n\nانہوں نے اس میں درج ذیل امور بیان کیے ہیں:\n\n1. یہ کہ شیخ کا قول یہ ہے کہ توحید چھوڑنے والے کے لیے عذر مطلقاً موجود ہے! اور یہ ان غلطیوں میں سے ہے جن میں مصنف واقع ہوا ہے۔\n2. انہوں نے دنیاوی احکام میں کسی معین شخص کے شرک میں مبتلا ہونے پر شیخ کے حکم اور آخرت میں عذاب کے مستحق ہونے سے متعلق باطنی کفر کے درمیان خلط ملط کیا ہے۔ اور یہ بھی ان غلطیوں میں سے ہے جن میں مصنف واقع ہوا ہے۔\n3. انہوں نے ذکر کیا ہے کہ شیخ Muhammad ibn ʿUthaymīn، شیخ عبد ... سے اختلاف کرتے ہیں۔",
+  "last_streamed_sample_len": 839,
+  "identical_to_final": true
+}

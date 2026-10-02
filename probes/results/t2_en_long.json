@@ -1,0 +1,359 @@
+{
+  "label": "t2_en_long",
+  "language": "English",
+  "arabic_chars": 4121,
+  "samples": [
+    {
+      "t": 0.175,
+      "serialized_len": 0,
+      "serialize_ms": 1.7,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 5.7,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 0.445,
+      "serialized_len": 0,
+      "serialize_ms": 4.4,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 13.8,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 0.729,
+      "serialized_len": 0,
+      "serialize_ms": 6.0,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 14.6,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.015,
+      "serialized_len": 0,
+      "serialize_ms": 6.7,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 15.5,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.304,
+      "serialized_len": 0,
+      "serialize_ms": 7.5,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 15.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.591,
+      "serialized_len": 0,
+      "serialize_ms": 4.7,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 11.5,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.883,
+      "serialized_len": 0,
+      "serialize_ms": 9.1,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 9.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 2.165,
+      "serialized_len": 0,
+      "serialize_ms": 6.6,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 15.5,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 2.45,
+      "serialized_len": 0,
+      "serialize_ms": 4.6,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 12.0,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 2.731,
+      "serialized_len": 0,
+      "serialize_ms": 7.9,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 15.9,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 3.02,
+      "serialized_len": 0,
+      "serialize_ms": 6.4,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 13.6,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 3.305,
+      "serialized_len": 0,
+      "serialize_ms": 5.8,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 14.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 3.591,
+      "serialized_len": 35,
+      "serialize_ms": 6.8,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 18.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 3.882,
+      "serialized_len": 91,
+      "serialize_ms": 6.4,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 17.7,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 4.171,
+      "serialized_len": 91,
+      "serialize_ms": 6.7,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 17.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 4.46,
+      "serialized_len": 91,
+      "serialize_ms": 6.4,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 20.3,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 4.753,
+      "serialized_len": 893,
+      "serialize_ms": 5.0,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 17.6,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 5.039,
+      "serialized_len": 893,
+      "serialize_ms": 4.6,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 18.9,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 5.327,
+      "serialized_len": 893,
+      "serialize_ms": 6.1,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 22.8,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 5.621,
+      "serialized_len": 893,
+      "serialize_ms": 7.0,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 22.6,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 5.991,
+      "serialized_len": 2185,
+      "serialize_ms": 9.4,
+      "serialize_err": null,
+      "plain_len": 244,
+      "plain_ms": 29.7,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 6.295,
+      "serialized_len": 2185,
+      "serialize_ms": 7.5,
+      "serialize_err": null,
+      "plain_len": 244,
+      "plain_ms": 30.0,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 6.597,
+      "serialized_len": 2185,
+      "serialize_ms": 7.5,
+      "serialize_err": null,
+      "plain_len": 244,
+      "plain_ms": 31.1,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 6.892,
+      "serialized_len": 3559,
+      "serialize_ms": 4.5,
+      "serialize_err": null,
+      "plain_len": 244,
+      "plain_ms": 28.9,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 7.189,
+      "serialized_len": 3559,
+      "serialize_ms": 10.4,
+      "serialize_err": null,
+      "plain_len": 244,
+      "plain_ms": 38.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 7.497,
+      "serialized_len": 3559,
+      "serialize_ms": 7.5,
+      "serialize_err": null,
+      "plain_len": 244,
+      "plain_ms": 39.6,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 7.808,
+      "serialized_len": 4957,
+      "serialize_ms": 3.0,
+      "serialize_err": null,
+      "plain_len": 317,
+      "plain_ms": 22.7,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 8.096,
+      "serialized_len": 4957,
+      "serialize_ms": 9.2,
+      "serialize_err": null,
+      "plain_len": 317,
+      "plain_ms": 46.0,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 8.415,
+      "serialized_len": 4957,
+      "serialize_ms": 9.1,
+      "serialize_err": null,
+      "plain_len": 317,
+      "plain_ms": 44.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 8.732,
+      "serialized_len": 6270,
+      "serialize_ms": 147.2,
+      "serialize_err": null,
+      "plain_len": 591,
+      "plain_ms": 32.8,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 9.173,
+      "serialized_len": 6970,
+      "serialize_ms": 43.9,
+      "serialize_err": null,
+      "plain_len": 6838,
+      "plain_ms": 20.1,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 9.5,
+      "serialized_len": 6970,
+      "serialize_ms": 10.6,
+      "serialize_err": null,
+      "plain_len": 6838,
+      "plain_ms": 34.5,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 9.807,
+      "serialized_len": 6970,
+      "serialize_ms": 31.6,
+      "serialize_err": null,
+      "plain_len": 6838,
+      "plain_ms": 18.6,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 10.12,
+      "serialized_len": 6970,
+      "serialize_ms": 8.5,
+      "serialize_err": null,
+      "plain_len": 6838,
+      "plain_ms": 29.6,
+      "plain_err": null,
+      "stop_present": false
+    }
+  ],
+  "anomalies": [],
+  "time_to_first_serialized_token_s": 3.591,
+  "time_to_first_plain_token_s": 5.991,
+  "stream_wall_time_s": 10.162,
+  "read_reply_time_s": 0.002,
+  "total_time_s": 10.164,
+  "read_err": null,
+  "final_text_len": 6970,
+  "final_text": "--- Page 1 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 2 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 3 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 4 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 5 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 6 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 7 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd",
+  "last_streamed_sample": "--- Page 1 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 2 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 3 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 4 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 5 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 6 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd\n\n--- Page 7 ---\n\n## Previous Studies\n\nAfter researching those who wrote about the opinion of Shaykh Muḥammad ibn ʿUthaymīn, may Allah have mercy on him, regarding the one who abandons monotheism, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the “al-Islām al-Yawm” website in the (Research and Studies) section, entitled: “Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Aid from Graves.” In it, he concluded the following:\n2. That the shaykh’s view is that there is an excuse absolutely for the one who abandons monotheism! This is one of the errors into which the writer fell.\n3. He confused between the shaykh’s ruling on the person engaged in manifesting shirk itself in the rulings of this world, and the hidden disbelief connected to deserving punishment in the Hereafter. This is one of the errors into which the writer fell.\n4. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn disagrees with Shaykh ʿAbd",
+  "last_streamed_sample_len": 6970,
+  "identical_to_final": true
+}

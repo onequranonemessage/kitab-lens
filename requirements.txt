@@ -1,0 +1,23 @@
+# kitab-lens backend dependencies, installed by install.sh into ./.venv (Python
+# 3.14, via uv). Pinned to the versions the backend was developed and tested
+# against; transitive dependencies (starlette, pydantic, ...) float.
+
+# Web server
+fastapi==0.141.1
+uvicorn[standard]==0.52.1
+python-multipart==0.0.32
+
+# Image decode / EXIF rotate / downscale before OCR
+pillow==12.3.0
+
+# ChatGPT backend (vendor/.../chatgpt_llm.py): drives chatgpt.com in Chrome.
+# Selenium Manager (bundled) resolves chromedriver.
+selenium==4.46.0
+pyperclip==1.11.0
+langchain-core==1.4.9
+
+# Apple Vision OCR (vendor/.../vision_ocr.py) -- macOS only
+pyobjc-core==12.2.1
+pyobjc-framework-Vision==12.2.1
+pyobjc-framework-Quartz==12.2.1
+pyobjc-framework-Cocoa==12.2.1

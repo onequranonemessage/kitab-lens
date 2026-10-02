@@ -1,0 +1,10 @@
+{
+  "name": "kitab-lens",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "./run.sh",
+    "start:local": "./run.sh --no-tunnel",
+    "build": "npm --prefix web run build"
+  }
+}

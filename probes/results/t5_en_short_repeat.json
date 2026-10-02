@@ -1,0 +1,139 @@
+{
+  "label": "t5_en_short_repeat",
+  "language": "English",
+  "arabic_chars": 572,
+  "samples": [
+    {
+      "t": 0.199,
+      "serialized_len": 0,
+      "serialize_ms": 1.8,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 6.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 0.473,
+      "serialized_len": 0,
+      "serialize_ms": 31.8,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 10.3,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 0.773,
+      "serialized_len": 0,
+      "serialize_ms": 5.3,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 14.6,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.057,
+      "serialized_len": 0,
+      "serialize_ms": 3.7,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 10.2,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.336,
+      "serialized_len": 35,
+      "serialize_ms": 9.3,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 19.0,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.629,
+      "serialized_len": 35,
+      "serialize_ms": 8.1,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 18.3,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 1.921,
+      "serialized_len": 35,
+      "serialize_ms": 6.3,
+      "serialize_err": null,
+      "plain_len": 0,
+      "plain_ms": 17.1,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 2.208,
+      "serialized_len": 656,
+      "serialize_ms": 3.1,
+      "serialize_err": null,
+      "plain_len": 17,
+      "plain_ms": 12.1,
+      "plain_err": null,
+      "stop_present": true
+    },
+    {
+      "t": 2.484,
+      "serialized_len": 988,
+      "serialize_ms": 3.5,
+      "serialize_err": null,
+      "plain_len": 971,
+      "plain_ms": 14.2,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 2.766,
+      "serialized_len": 988,
+      "serialize_ms": 7.0,
+      "serialize_err": null,
+      "plain_len": 971,
+      "plain_ms": 21.3,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 3.059,
+      "serialized_len": 988,
+      "serialize_ms": 7.0,
+      "serialize_err": null,
+      "plain_len": 971,
+      "plain_ms": 19.1,
+      "plain_err": null,
+      "stop_present": false
+    },
+    {
+      "t": 3.349,
+      "serialized_len": 988,
+      "serialize_ms": 7.0,
+      "serialize_err": null,
+      "plain_len": 971,
+      "plain_ms": 20.2,
+      "plain_err": null,
+      "stop_present": false
+    }
+  ],
+  "anomalies": [],
+  "time_to_first_serialized_token_s": 1.336,
+  "time_to_first_plain_token_s": 2.208,
+  "stream_wall_time_s": 3.381,
+  "read_reply_time_s": 0.003,
+  "total_time_s": 3.384,
+  "read_err": null,
+  "final_text_len": 988,
+  "final_text": "Previous studies\n\nAfter researching who has written about the opinion of Shaykh Muḥammad ibn ʿUthaymīn — may Allah have mercy on him — regarding the one who abandons tawḥīd, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the website “al-Islām al-Yawm” in the section (Researches and Studies), entitled:\n\n“Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Help from Graves”\n\nIn it, he concluded the following:\n\n1. That the statement of the Shaykh is that there is an absolute excuse for the one who abandons tawḥīd! And this is one of the mistakes into which the writer fell.\n2. He confused the Shaykh’s ruling on the one who is personally engaged in polytheism in the rulings of this world with the internal disbelief connected to deserving punishment in the Hereafter. And this is one of the mistakes into which the writer fell.\n3. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn differs from Shaykh ʿAbd…",
+  "last_streamed_sample": "Previous studies\n\nAfter researching who has written about the opinion of Shaykh Muḥammad ibn ʿUthaymīn — may Allah have mercy on him — regarding the one who abandons tawḥīd, I came across the following:\n\n1. Six papers by Dr. Sulṭān al-ʿUmayrī, published on the website “al-Islām al-Yawm” in the section (Researches and Studies), entitled:\n\n“Clarifying the Position of Shaykh Muḥammad ibn ʿUthaymīn Regarding the Ruling on Those Who Seek Help from Graves”\n\nIn it, he concluded the following:\n\n1. That the statement of the Shaykh is that there is an absolute excuse for the one who abandons tawḥīd! And this is one of the mistakes into which the writer fell.\n2. He confused the Shaykh’s ruling on the one who is personally engaged in polytheism in the rulings of this world with the internal disbelief connected to deserving punishment in the Hereafter. And this is one of the mistakes into which the writer fell.\n3. He mentioned that Shaykh Muḥammad ibn ʿUthaymīn differs from Shaykh ʿAbd…",
+  "last_streamed_sample_len": 988,
+  "identical_to_final": true
+}
